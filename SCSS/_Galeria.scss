@@ -1,0 +1,127 @@
+.H1Galeria{
+    text-align: center;
+    justify-content:center;
+    margin: 30px; 
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 400px);
+    grid-template-areas: 
+    "img1"
+    "img2"
+    "img3"
+    "img4"
+    "img5"
+    "img6";
+    margin-bottom: 20px;
+
+
+    .item{
+       border: 2px solid black;
+       padding: 50px;
+    }
+    .item1{
+        grid-area: img1;
+background-image: url(../IMG/Galeria1.JPG);
+background-size: cover;
+background-position: center;
+margin-bottom: 20px;
+    }
+
+    .item2{
+        grid-area: img2;
+background-image: url(../IMG/Galeria2.JPG);
+background-size: cover;
+background-position: center;
+margin-bottom: 20px;
+    }
+
+    .item3{
+        grid-area: img3;
+background-image: url(../IMG/Galeria3.JPG);
+background-size: cover;
+background-position: center;
+margin-bottom: 20px;
+    }
+
+    .item4{
+        grid-area: img4;
+background-image: url(../IMG/Galeria4.JPG);
+background-size: cover;
+background-position: center;
+margin-bottom: 20px;
+    }
+
+    .item5{
+        grid-area: img5;
+background-image: url(../IMG/Galeria5.JPG);
+background-size: cover;
+background-position: center;
+margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+@media(min-width: 768px){
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        grid-template-areas: 
+        "img1 img1 img2"
+        "img3 img3 img4"
+        "img3 img3 img5";
+        grid-gap: 20px 50px;
+    
+
+        .item{
+           border: 2px solid black;
+           padding: 50px;
+        }
+        .item1{
+            grid-area: img1;
+    background-image: url(../IMG/Galeria1.JPG);
+    background-size: cover;
+    background-position: center;
+        }
+
+        .item2{
+            grid-area: img2;
+    background-image: url(../IMG/Galeria2.JPG);
+    background-size: cover;
+    background-position: center;
+        }
+
+        .item3{
+            grid-area: img3;
+    background-image: url(../IMG/Galeria3.JPG);
+    background-size: cover;
+    background-position: center;
+        }
+
+        .item4{
+            grid-area: img4;
+    background-image: url(../IMG/Galeria4.JPG);
+    background-size: cover;
+    background-position: center;
+        }
+
+        .item5{
+            grid-area: img5;
+    background-image: url(../IMG/Galeria5.JPG);
+    background-size: cover;
+    background-position: center;
+        }
+    }
+}

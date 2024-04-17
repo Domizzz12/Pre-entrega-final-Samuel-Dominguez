@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+.ImgGoogleReseñas{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+        max-width: 768px;
+}
+
+
+.Reseñas{
+    margin: 10px;
+
+
+    .R1{
+        border: 2px  solid black;
+        width: 100%;
+        max-width: 760px;
+    }
+
+    .R2{
+        border: 2px  solid black;
+        width: 100%;
+        max-width: 760px;
+    }
+    .R3{
+        border: 2px  solid black;
+        width: 100%;
+        max-width: 760px;
+    }
+    .R4{
+        border: 2px  solid black;
+        width: 100%;
+        max-width: 760px;
+    }
+    .R5{
+        border: 2px  solid black;
+        width: 100%;
+        max-width: 760px;
+    }
+
+    .R6{
+        border: 2px  solid black;
+        width: 100%;
+        max-width: 760px;
+    }
+}
+
+@media (min-width:768px){
+    .Reseñas{
+        .R1{
+            border: 2px  solid black;
+            height: 30%;
+            width: 50%;
+            margin: 40px;
+            float: left;
+        }
+    
+        .R2{
+            border: 2px  solid black;
+            height: 30%;
+            width: 50%;
+            margin: 40px;
+            float: right;
+        }
+        .R3{
+            border: 2px  solid black;
+            height: 30%;
+            width: 50%;
+            margin: 40px;
+            float: left;
+        }
+    
+        .R4{
+            border: 2px  solid black;
+            height: 30%;
+            width: 50%;
+            margin: 40px;
+            float: right;
+        }
+        .R5{
+            border: 2px  solid black;
+            height: 30%;
+            width: 50%;
+            margin: 40px;
+            float: left;
+        }
+    
+        .R6{
+            border: 2px  solid black;
+            height: 30%;
+            width: 50%;
+            margin: 40px;
+            float: right;
+        }
+
+    }
+}
+
+}
+

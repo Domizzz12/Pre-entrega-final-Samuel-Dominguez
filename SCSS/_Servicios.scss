@@ -1,0 +1,89 @@
+.H1Servicios{
+    font-size: 60px;
+    text-align: center;
+    color: #3a3a3a;
+    padding: 20px;
+}
+
+@media (min-width:768px){
+    .H1Servicios{
+    width: 80%;
+    background-color: #b3f9e0;
+    margin: 0 auto;
+    background-position: center;
+    }
+}
+
+.Manicuria{
+
+   padding: 30px; 
+
+    .ImgsServicios{
+        height: 20%;
+        width: 100%;
+        padding: 10px;
+        border-radius: 25px;
+
+        @media (min-width:768px){
+            height: 20%;
+            width: 40%;
+        }
+    }
+
+.PLiServicios{
+    .PServicios{
+        font-size: 30px;
+        color: #3a3a3a;
+        padding: 10px;
+
+        
+    
+    }
+    
+    .LisServicios{
+        font-size: 20px;
+        color: #3a3a3a;
+        padding-left: 20px;
+            
+    }
+
+}
+}
+
+@media (min-width:768px){
+    .Manicuria{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        background-color:#b3f9e0;
+        margin: 0 auto;
+        background-position: center;
+        
+
+        .ImgsServicios{
+            width: 35%;
+            height: 30%;
+            padding: 50px;
+        }
+
+        .PLiServicios{
+        padding: 50px;
+     .PServicios{
+        font-size: 50px;
+     }
+
+     .LisServicios{
+        font-size: 40px;
+     }
+    }
+}
+}
+
+
+
+
+
+
+
+
+
