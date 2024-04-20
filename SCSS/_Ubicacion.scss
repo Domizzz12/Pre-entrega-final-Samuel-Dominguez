@@ -1,17 +1,131 @@
-main{
-    section{
+body{
+    background-color: #b3f9e0;
+    main{
     h1{
     font-size: 40px;
     margin: 40px;
     justify-content: center;
     text-align: center;
+
+    @media(min-width: 768px){
+        float:left;
+    }
 }
 
 h2{
+    padding: 10px;
     font-size:30px ;
-    justify-content: center;
     text-align: center;
     margin-top: 40px;
+
+    @media(min-width: 768px){
+        text-align: none;
+        float: left;
+        margin-top: none;
+        padding: none;
+    }
+}
+
 }
 }
+#carrusel-caja {
+    -moz-animation: automatizacion 15s infinite linear;
+    -o-animation: automatizacion 15s infinite linear;
+    -webkit-animation: automatizacion 15s infinite linear;
+    animation: automatizacion 15s infinite linear;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+    height: 40%;
+    width: 300%;
+    text-align: center;
+    padding: 10px;
 }
+#carrusel-contenido {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+.imagenes{
+    height: 500px;
+    width: 100%;
+    max-width: 768px;
+}
+.carrusel-elemento {
+    float: left;
+    width: 33.333%;
+}
+@-moz-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: 0;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+@-webkit-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: 0;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+@keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: 0;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: 0;
+    }
+    
+}
+
+
