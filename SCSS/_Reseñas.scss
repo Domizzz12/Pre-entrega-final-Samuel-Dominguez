@@ -2,6 +2,12 @@ body{
     display: flex;
     flex-direction: column;
 
+    h1{
+        font-size: 50px;
+        padding: 40px;
+        text-align: center;
+    }
+
 .ImgGoogleReseñas{
         display: flex;
         justify-content: center;
@@ -14,35 +20,34 @@ body{
 .Reseñas{
     margin: 10px;
 
-
-    .R1{
+    .ReseñasImg1{
         border: 2px  solid black;
         width: 100%;
         max-width: 760px;
     }
 
-    .R2{
+    .ReseñasImg2{
         border: 2px  solid black;
         width: 100%;
         max-width: 760px;
     }
-    .R3{
+    .ReseñasImg3{
         border: 2px  solid black;
         width: 100%;
         max-width: 760px;
     }
-    .R4{
+    .ReseñasImg4{
         border: 2px  solid black;
         width: 100%;
         max-width: 760px;
     }
-    .R5{
+    .ReseñasImg5{
         border: 2px  solid black;
         width: 100%;
         max-width: 760px;
     }
 
-    .R6{
+    .ReseñasImg6{
         border: 2px  solid black;
         width: 100%;
         max-width: 760px;
@@ -51,7 +56,7 @@ body{
 
 @media (min-width:768px){
     .Reseñas{
-        .R1{
+        .ReseñasImg1{
             border: 2px  solid black;
             height: 30%;
             width: 50%;
@@ -59,14 +64,14 @@ body{
             float: left;
         }
     
-        .R2{
+        .ReseñasImg2{
             border: 2px  solid black;
             height: 30%;
             width: 50%;
             margin: 40px;
             float: right;
         }
-        .R3{
+        .ReseñasImg3{
             border: 2px  solid black;
             height: 30%;
             width: 50%;
@@ -74,31 +79,65 @@ body{
             float: left;
         }
     
-        .R4{
+        .ReseñasImg4{
             border: 2px  solid black;
             height: 30%;
             width: 50%;
             margin: 40px;
             float: right;
         }
-        .R5{
+        .ReseñasImg5{
             border: 2px  solid black;
             height: 30%;
             width: 50%;
             margin: 40px;
             float: left;
-        }
-    
-        .R6{
-            border: 2px  solid black;
-            height: 30%;
-            width: 50%;
-            margin: 40px;
-            float: right;
-        }
+            }
 
+                 
+        .ReseñasImg6{
+            border: 2px solid black;
+            height: 30%;
+            width: 50%;
+            margin: 40px;
+            float: right;
+
+        }
     }
 }
 
+footer{
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+    p{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .redes i{
+        color: #fff;
+        font-size: 50px;
+        letter-spacing: 15px;
+        
+    }
+    
+    footer a:hover{
+        color: #c0ecf6;
+
+
+    }
+    
+
+
 }
 
+}
+
+        
+        
+ 
